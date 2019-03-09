@@ -82,7 +82,7 @@ DATABASES = {
         'NAME': 'blogdb',
         # 开发环境可用，生产环境不要用
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': '123456',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
