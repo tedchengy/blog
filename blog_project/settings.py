@@ -25,7 +25,7 @@ SECRET_KEY = '+p+3mgm0^e3hznbh*wml*et82x$0ai*$76nphz2l17tr(uemsw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '139.199.152.204', 'www.anhuaxiang.cn', 'anhuaxiang.cn']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '106.14.14.172', 'www.chenguanyu.cn', 'chenguanyu.cn']
 
 # Application definition
 
@@ -83,8 +83,8 @@ DATABASES = {
         # 开发环境可用，生产环境不要用
         'USER': 'root',
         'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
@@ -138,10 +138,10 @@ AUTH_USER_MODEL = 'blog.User'
 # 网站的基本信息配置
 
 SITE_URL = 'http://127.0.0.1:8000/'
-SITE_NAME = '小豆豆的个人博客'
+SITE_NAME = '大帅哥的个人博客'
 SITE_DESC = '业精于勤荒于嬉,行成于思毁于随'
 PRO_RSS = 'http://www.newbieol.com'
-PRO_EMAIL = '1342181530@qq.com'
+PRO_EMAIL = '315135485@qq.com'
 
 # 自定义日志输出信息
 LOGGING = {
